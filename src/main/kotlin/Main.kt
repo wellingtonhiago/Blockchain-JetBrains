@@ -1,11 +1,3 @@
-fun main() {
-    print("Enter how many zeros the hash must start with: ")
-    val difficultyLevel = readln().toInt()
-    val blockchain = Blockchain(difficultyLevel)
 
-    repeat(5) {
-        blockchain.generateNewBlock()
-    }
+fun main() = Chat().creatingMessages().also { CryptoMine().mining(Blockchain()) }
 
-    blockchain.printBlockchain()
-}
