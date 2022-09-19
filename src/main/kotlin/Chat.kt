@@ -2,8 +2,8 @@ import java.util.*
 import java.util.concurrent.CountDownLatch
 
 class Chat {
-    private val names = arrayOf("Adam", "Bob", "Cecile", "Damian", "Greg", "Mark", "Mike", "Rob")
-    private val words = arrayOf("will kill", "smoke with", "hate", "love", "looking for", "miss", "like")
+    private val names = arrayOf("Well", "MauMau", "Yah", "Lucas", "Mauriceia", "Marcus", "Luan", "Brenda")
+    private val words = arrayOf("tem fome", "Paga algo", "hate", "ama", "está olhando", "precisa", "gosta")
     private var messages = mutableListOf<Message>()
 
     fun creatingMessages() {
